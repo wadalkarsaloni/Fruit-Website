@@ -1,9 +1,19 @@
-.btn1{
-    margin-left: 5px;
-    padding: 10px;
-    width: 100px;
-    border: 1px solid black;
-    box-shadow: 5px 10px 8px #888888;
+.navbar{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.navbar li{
+    list-style: none;
+    float: left;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+img{
+    float: left;
 }
 .cart{
     background-color: antiquewhite !important;
@@ -11,25 +21,5 @@
 .cart img{
     border-radius: 25px;
     box-shadow: 10px 10px 10px black;
-}
-.navbarSupportedContent ul li{
-    border: 1px solid wheat !important;
-    border-radius: 5px !important;
-}
-.navbarSupportedContent ul li:hover{
-    background-color: rgb(9, 141, 97) !important;
-}
-
-/* :hover{
-    background-color: rgb(9, 141, 97) !important;
-} */
-/* {
-    background-color: aqua !important;
-} */
-/* .active{
-    background-color: #888888;
-    border-radius: 5px !important;
-} */
-.head{
-    font-family: 'Times New Roman', Times, serif;
+    backdrop-filter: blur(5px);
 }
